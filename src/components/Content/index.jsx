@@ -1,7 +1,7 @@
 import { dateFormatter } from "@/utils/dateFormatter";
 import { loremGenerator } from "@/utils/loremGenerator";
 
-export function NewsContentDetail({dataNews, category}) {
+export function NewsContentDetail({ dataNews, category }) {
     return (
         <>
             <p className="text-2xl font-semibold">{dataNews?.title}</p>
@@ -16,7 +16,7 @@ export function NewsContentDetail({dataNews, category}) {
             </div>
             <img
                 src={dataNews?.thumbnail}
-                className="object-cover w-full h-[50vh] rounded-2xl"
+                className="object-cover w-full h-[60vh] rounded-2xl"
             />
             <p className="font-light">
                 {dataNews?.description}
